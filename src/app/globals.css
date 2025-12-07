@@ -93,14 +93,9 @@ html {
   background: var(--navy);
 }
 
-/* Link styles */
+/* Link styles - only apply to links without explicit color classes */
 a {
-  color: var(--navy);
   transition: color 0.2s ease;
-}
-
-a:hover {
-  color: var(--gold);
 }
 
 /* Button base styles */
